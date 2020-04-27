@@ -1,3 +1,7 @@
-= Zaneta Gebka
+= Author of the Project - Redmine Plugin
 
 This plugin should go to /app/plugins folder.
+
+This plugin allows you to add extra field to Project form called: "Author". It allows you to add author of the project to Members card on Project Overview page. 
+
+Do not forget: You nedd to add members of project to be able to see author too.
