@@ -1,0 +1,3 @@
+<% unless @project.author.nil? %>
+  <p><%= t 'views.author.label' %> <%= link_to(@project.author.name, user_path(@project.author.id)) %></p>
+<% end %>

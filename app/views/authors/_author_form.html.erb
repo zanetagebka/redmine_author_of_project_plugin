@@ -1,0 +1,3 @@
+<%= labelled_fields_for :project, @project do |f| %>
+  <p><%= f.select :author_id, author_for_select, include_blank: true %></p>
+<% end %>
