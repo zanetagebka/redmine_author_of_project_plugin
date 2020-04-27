@@ -1,7 +1,7 @@
 require File.expand_path('../../test_helper', __FILE__)
 
 class ProjectControllerTest < ActionDispatch::IntegrationTest
-  fixtures :projects, :users, :roles, :members
+  fixtures :projects, :users
 
   setup do
     post "/login", params: {
